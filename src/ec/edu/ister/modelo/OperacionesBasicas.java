@@ -19,7 +19,7 @@ public class OperacionesBasicas {
         int x=5;
         int y=3;
         
-        JOptionPane.showMessageDialog(null,"La suma de" + x + "+" + y + "es" + (x+y));
+        JOptionPane.showMessageDialog(null,"La suma de " + x + " + " + y + " es " + (x+y));
         
         }
    
@@ -33,6 +33,7 @@ public class OperacionesBasicas {
     }
     
     public static int sumaDevuelve(int x, int y) {
+        
         
         return x+y;
         

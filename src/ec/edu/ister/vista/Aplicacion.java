@@ -6,6 +6,7 @@
 
 package ec.edu.ister.vista;
 
+import ec.edu.ister.modelo.ControlFlujo;
 import ec.edu.ister.modelo.OperacionesBasicas;
 import javax.swing.JOptionPane;
 
@@ -16,13 +17,17 @@ import javax.swing.JOptionPane;
 public class Aplicacion {
     public static void main(String[] args) {
         
-        int m= Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese#"));
-        int n= Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese otro #"));
+        //int m= Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un número"));
+        //int n= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese otro número"));
         
         //OperacionesBasicas.sumaDosNumeros();
-        OperacionesBasicas.sumaConParametros(m, n);
+        //OperacionesBasicas.sumaConParametros(m, n);
         
-        JOptionPane.showMessageDialog(null, OperacionesBasicas.sumaDevuelve(6, 7));
+        //JOptionPane.showMessageDialog(null, OperacionesBasicas.sumaDevuelve(m, n));
+        ControlFlujo.menu();
+        //ControlFlujo.ifAnidado();
+        
+        
     }
 
 }
